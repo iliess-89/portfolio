@@ -1,26 +1,50 @@
 body{
-background-color: rgb(127, 134, 133);
-
+background-color: rgb(230, 222, 222);
+margin: 0;
 }
 
-header{
+/* header{
 background-color: rgb(10, 10, 10);
-}
+padding-top: 1%;
 
-.h1{
+} */
+
+h1{
+text-align: center;
+font-size: 30px;
+
 
 }
 
 .premier{
-
+    box-shadow: 1 solid rgb(20, 20, 20);
+border-radius: 5%;
 background-color: white;
-font-size: 20px;
 text-align: center;
-border: 2px black;
-border-radius: 20px;
-margin-top: 15%;
-margin-right: 20%;
-margin-left: 20%;
-padding: 15%;
+margin-left: 5%;
+margin-right: 5%;
+padding-bottom: 15%;
 }
 
+.lien{
+   text-align: center;
+   
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40%;
+}
+.logo{
+    font-size: 20px;
+    color: white;
+}
+.lien{
+
+}
+
+
+/* mon menu burger  */
