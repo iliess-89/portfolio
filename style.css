@@ -1,0 +1,26 @@
+body{
+background-color: rgb(127, 134, 133);
+
+}
+
+header{
+background-color: rgb(10, 10, 10);
+}
+
+.h1{
+
+}
+
+.premier{
+
+background-color: white;
+font-size: 20px;
+text-align: center;
+border: 2px black;
+border-radius: 20px;
+margin-top: 15%;
+margin-right: 20%;
+margin-left: 20%;
+padding: 15%;
+}
+
