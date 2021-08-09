@@ -1,8 +1,8 @@
-function toggleMenu () {  
-    const navbar = document.querySelector('.navbar');
-    const burger = document.querySelector('.burger');
-    burger.addEventListener('click', (e) => {    
-      navbar.classList.toggle('show-nav');
-    });    
-  }
-  toggleMenu();
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+ }
+ 
+ 
+ function closeNav() {
+   document.getElementById("myNav").style.width = "0%";
+ }
