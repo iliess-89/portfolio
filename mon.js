@@ -1,3 +1,4 @@
+// menu burger
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
  }
@@ -6,3 +7,4 @@ function openNav() {
  function closeNav() {
    document.getElementById("myNav").style.width = "0%";
  }
+ //fin du menu burger 
