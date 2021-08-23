@@ -1,160 +1,148 @@
-@media screen and (min-width: 320px) {
-
-  body {
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-  }
-
-  header {
-    background: black;
-    height: 50px;
-  }
-
-  .bienvenueimg {
-    margin-top: 30%;
-    height: 117px;
-  }
-
-  .imgphoto {
-    margin-top: 10%;
-    margin-bottom: 7%;
-  }
-
-  .deuxieme {
-    background-color: white;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 10%;
-    padding-top: 2px;
-    font-size: 20px;
-
-  }
-
-  .ligne1 {
-    background-color: black;
-    height: 1px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-  }
-
-  .presentation {
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: black 0px 5px 15px;
-    color: black;
-    padding-bottom: 5%;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 30%;
-  }
-
-  footer {
-    background-color: black;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 50%;
-  }
-
-  /*notre menu */
-  span {
-    margin-left: 74%;
-    color: white;
-    display: block;
-    width: 90px;
-    height: 50px;
-    line-height: 47px;
-    background: gray;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Lato';
-
-  }
-
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-
-  .overlay-content {
-    position: relative;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-
-
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #f1f1f1;
-  }
-
-
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-
-  /*notre fin de menu */
+body {
+  background-color: #ac8e43;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (min-width:480px) {
-  header {
-    padding-left: 118px;
-  }
+header {
+  box-shadow: white 0px 5px 15px;
+  background: black;
+  height: 50px;
+}
+.lien-reseau{
+  background-color: blue;
+  text-align: center;
+  box-shadow: black 0px 22px 70px 4px;
+  border-radius: 10px;
+  height:200px;
+  margin: 15px;
+}
+.lien {
+  display: none;
+}
+.bienvenueimg {
+  margin-top: 30%;
+  height: 117px;
+}
 
-  .bienvenueimg {
-    height: 155px;
-  }
+.imgphoto {
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
 
-  .deuxieme {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .presentation {
-    background-color: red;
-  }
-
-  
+.deuxieme {
+  background-color: #4c46cc;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10%;
+  padding-top: 2px;
+  font-size: 20px;
 
 }
 
+.ligne1 {
+  background-color: white;
+  height: 1px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
 
+.presentation {
+  font-family: 'Kaisei Decol', serif;
+  background-color: #4c46cc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: black 0px 22px 70px 4px;
+  color: white;
+  padding-bottom: 5%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 30%;
+}
+
+footer {
+  box-shadow: white 0px 5px 15px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50%;
+}
+
+/*notre menu */
+.menu {
+  margin-left: 74%;
+  color: white;
+  display: block;
+  width: 90px;
+  height: 50px;
+  line-height: 47px;
+  background: gray;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lato';
+
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/*notre fin de menu */
+
+/*
 @media screen and (min-width:768px) {
   header {
-    padding-left: 405px;
     height: 60px;
   }
 
-  span {
+  .menu {
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 664px;
   }
 
   .bienvenueimg {
@@ -167,15 +155,15 @@
   }
 
   .deuxieme {
-    background-color: white;
+
     margin-left: 50px;
     margin-right: 50px;
   }
 
   .presentation {
-    background-color: white;
-    margin-left: 60px;
-    margin-right: 60px;
+    background-color: #4c46cc;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   footer {
@@ -183,8 +171,41 @@
   }
 
 }
-@media screen and (min-width:1224px) {
 
-  
-}
- 
+@media screen and (min-width:1280px) {
+  .deuxieme {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .presentation {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .menu {
+    display: none;
+  }
+  .lien{
+    padding-top: 1rem;
+    display: block;
+  }
+
+  .lien>a {
+    color: white;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+  .lien>span{
+    color: white;
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-right: 72rem;
+  }
+  .logo{
+    color: white;
+    /* width: 100px;
+    
+  }
+
+}*/
